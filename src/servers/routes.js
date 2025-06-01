@@ -37,15 +37,8 @@ const routes = [
   // Deteksi
   {
     method: 'GET',
-    path: '/detection',
+    path: '/detections',
     handler: () => 'Halaman deteksi penyakit tanaman',
-  },
-
-  // Halaman 404
-  {
-    method: '*',
-    path: '/{any*}',
-    handler: () => 'Halaman tidak ditemukan',
   },
 ];
 
