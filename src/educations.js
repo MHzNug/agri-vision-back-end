@@ -35,7 +35,7 @@ const diseaseEducation = [
     },
 
     // Sematkan Video
-    videoEmbed: `<iframe width="760" height="400" src="https://www.youtube.com/embed/S_S4oHe1d6g?si=cZ2sGP_P0PApiI-3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`,
+    videoEmbed: `https://www.youtube.com/embed/S_S4oHe1d6g?si=cZ2sGP_P0PApiI-3`,
   },
 ];
 
