@@ -24,7 +24,8 @@ const addEducationHandler = (request, h) => {
   ) {
     const response = h.response({
       status: 'fail',
-      message: 'Gagal menambahkan edukasi penyakit tanaman',
+      message:
+        'Gagal menambahkan edukasi penyakit tanaman, Mohon isi semua field.',
     });
 
     response.code(400);
@@ -154,6 +155,7 @@ const editEducationByIdHandler = (request, h) => {
   const updatedAt = new Date().toISOString();
   const educationIndex = diseaseEducation.findIndex(n => n.id === educationId);
 
+  // Validasi Id
   if (educationIndex !== -1) {
     diseaseEducation[educationIndex] = {
       ...diseaseEducation[educationIndex],

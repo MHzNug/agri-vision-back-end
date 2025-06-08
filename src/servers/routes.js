@@ -1,4 +1,12 @@
 const {
+  getAllDiseasesHandler,
+  AddDiseaseHandler,
+  getDiseasesByIdHandler,
+  editDiseaseByIdHandler,
+  deleteDiseaseByIdHandler,
+} = require('./handlers/disease-handler');
+
+const {
   addEducationHandler,
   getAllEducationHandler,
   getEducationByIdHandler,
@@ -32,6 +40,33 @@ const routes = [
     method: 'DELETE',
     path: '/educations/{educationId}',
     handler: deleteEducationByIdHandler,
+  },
+
+  // Penyakit
+  {
+    method: 'POST',
+    path: '/diseases',
+    handler: AddDiseaseHandler,
+  },
+  {
+    method: 'GET',
+    path: '/diseases',
+    handler: getAllDiseasesHandler,
+  },
+  {
+    method: 'GET',
+    path: '/diseases/{diseaseId}',
+    handler: getDiseasesByIdHandler,
+  },
+  {
+    method: 'PUT',
+    path: '/diseases/{diseaseId}',
+    handler: editDiseaseByIdHandler,
+  },
+  {
+    method: 'DELETE',
+    path: '/diseases/{diseaseId}',
+    handler: deleteDiseaseByIdHandler,
   },
 
   // Deteksi
