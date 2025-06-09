@@ -4,12 +4,12 @@ const Path = require('path');
 const routes = require('./routes');
 
 const PORT = process.env.PORT || 9090;
-// const HOST = process.env.HOST || 'localhost';
+const HOST = process.env.HOST || 'localhost';
 
 const init = async () => {
   const server = Hapi.server({
     port: PORT,
-    // host: HOST,
+    host: HOST,
     routes: {
       cors: {
         origin: ['*'],
@@ -56,7 +56,7 @@ const init = async () => {
 
   // Mulai server
   await server.start();
-  console.log('Server: ', server.info.uri);
+  console.log('🚀 Server: ', server.info.uri);
 };
 
 init();
