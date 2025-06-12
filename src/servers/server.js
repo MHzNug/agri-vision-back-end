@@ -4,7 +4,7 @@ const Path = require('path');
 const routes = require('./routes');
 
 const PORT = process.env.PORT || 9090;
-const HOST = process.env.HOST || 'localhost';
+const HOST = process.env.HOST || '0.0.0.0';
 
 const init = async () => {
   const server = Hapi.server({
