@@ -1,3 +1,4 @@
+const detectionHandler = require('./handlers/detection-handler');
 const {
   getAllDiseasesHandler,
   AddDiseaseHandler,
@@ -69,11 +70,20 @@ const routes = [
     handler: deleteDiseaseByIdHandler,
   },
 
-  // Deteksi
+  // Deteksi Penyakit (Baru)
   {
-    method: 'GET',
+    method: 'POST',
     path: '/detections',
-    handler: () => 'Halaman deteksi penyakit tanaman',
+    handler: detectionHandler,
+    options: {
+      payload: {
+        output: 'stream',
+        parse: true,
+        allow: 'multipart/form-data',
+        multipart: { output: 'stream' },
+        maxBytes: 10 * 1024 * 1024, // 10MB
+      },
+    },
   },
 ];
 

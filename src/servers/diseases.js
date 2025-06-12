@@ -1,6 +1,6 @@
 const diseases = [
   {
-    id: 'class_0',
+    id: 'class_3',
     diseaseName: 'Blas Leher atau Blas Malai (Neck Blast)',
     description:
       'Blas Leher atau Blas Malai (Neck Blast), juga dikenal sebagai panicle blast, adalah penyakit yang disebabkan oleh jamur Magnaporthe oryzae yang menyerang leher malai padi sehingga menyebabkan butir padi kosong.',
@@ -21,7 +21,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_1',
+    id: 'class_9',
     diseaseName: 'Padi Kuning (Tungro)',
     description:
       'Padi Kuning (Tungro) adalah penyakit virus yang ditularkan oleh wereng hijau (Nephotettix spp.), menyebabkan tanaman kerdil, menguning, dan menurunnya hasil panen.',
@@ -42,7 +42,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_2',
+    id: 'class_7',
     diseaseName: 'Bercak Daun Bakteri',
     description:
       'Bercak daun bakteri disebabkan oleh Xanthomonas oryzae pv. oryzae, menimbulkan bercak kuning dan layu pada daun padi yang dapat menurunkan hasil panen secara signifikan.',
@@ -63,7 +63,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_3',
+    id: 'class_5',
     diseaseName: 'Bercak Pembungkus (Sheath Blight)',
     description:
       'Sheath blight adalah penyakit yang disebabkan oleh jamur Rhizoctonia solani, menyerang bagian ruas dan pembungkus daun padi, dapat menyebar cepat dan menyebabkan rebah.',
@@ -84,7 +84,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_4',
+    id: 'class_8',
     diseaseName: 'Bercak Cokelat',
     description:
       'Bercak cokelat disebabkan oleh jamur Bipolaris oryzae, menghasilkan bercak gelap pada daun dan dapat mempengaruhi penampilan biji.',
@@ -105,7 +105,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_5',
+    id: 'class_6',
     diseaseName: 'Kondisi Sehat',
     description:
       'Tanaman padi dalam kondisi optimal tanpa gejala penyakit, dengan pertumbuhan vegetatif dan generatif yang baik.',
@@ -126,7 +126,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_6',
+    id: 'class_4',
     diseaseName: 'Bercak Cokelat Sempit',
     description:
       'Bercak cokelat sempit, disebabkan oleh Pseudocercospora oryzae, menimbulkan lesi panjang sempit pada daun yang mengganggu fotosintesis.',
@@ -147,7 +147,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_7',
+    id: 'class_2',
     diseaseName: 'Keriting Daun (Leaf Scald)',
     description:
       'Leaf scald, disebabkan oleh jamur Microdochium oryzae (Rhynchosporium oryzae), menyebabkan bercak besar pada daun yang dapat merambat ke batang.',
@@ -168,7 +168,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_8',
+    id: 'class_0',
     diseaseName: 'Blas Daun (Leaf Blast)',
     description:
       'Blas Daun (Leaf Blast) adalah penyakit yang disebabkan oleh jamur Magnaporthe oryzae, menyerang daun dan dapat menyebar ke bagian lain tanaman.',
@@ -189,7 +189,7 @@ const diseases = [
     ],
   },
   {
-    id: 'class_9',
+    id: 'class_1',
     diseaseName: 'Serangan Hama Kepik Hispa (Rice Hispa)',
     description:
       'Serangan Hama Kepik Hispa (Rice Hispa) adalah hama serangga (Dicladispa armigera) yang memakan jaringan daun padi, menyebabkan kerusakan berupa lubang sejajar.',

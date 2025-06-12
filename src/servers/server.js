@@ -27,7 +27,7 @@ const init = async () => {
       method: 'GET',
       path: '/',
       handler: (request, h) => {
-        return h.file(Path.resolve(__dirname, '../index.html'));
+        return h.file(Path.resolve(__dirname, '../public/index.html'));
       },
     },
     {
@@ -35,7 +35,7 @@ const init = async () => {
       path: '/{param*}',
       handler: {
         directory: {
-          path: Path.resolve(__dirname, '../'),
+          path: Path.resolve(__dirname, '../public/'),
           index: false,
           listing: false,
         },

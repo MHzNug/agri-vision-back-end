@@ -20,6 +20,8 @@
   "dependencies": {
     "@hapi/hapi": "^21.4.0",
     "@hapi/inert": "^7.1.0",
-    "nanoid": "^3.3.11"
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "nanoid": "^3.3.11",
+    "util": "^0.12.5"
   }
 }
