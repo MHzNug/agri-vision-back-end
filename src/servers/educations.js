@@ -15,7 +15,7 @@ const diseaseEducation = [
   //   // Pencegahan
   //   // prevention: ['Gunakan benih sehat dan tahan penyakit'],
   //
-  //   // Penanganan
+  //   // Perawatan
   //   // treatment: {
   //   //   biological: ,
   //   //   chemical:,
